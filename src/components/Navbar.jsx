@@ -27,6 +27,7 @@ const Navbar = () => {
       <div className="block md:hidden cursor-pointer z-10">
         <AiOutlineMenu />
       </div>
+
       {/* Mobile Menu */}
       <div className="md:hidden fixed left-0 top-20 flex flex-col items-center justify-between w-full h-[90%] bg-primary ease-in duration-300 z-10">
         <ul className="w-full p-4">
@@ -47,7 +48,7 @@ const Navbar = () => {
             </button>
           </Link>
           <Link to="/signup">
-            <button className="w-full my-2 p-3 bg-button text-btnText rounded-2xl shadow-xl">
+            <button className="w-full my-2 p-3 bg-button text-secondary rounded-2xl shadow-xl">
               Sign Up
             </button>
           </Link>
